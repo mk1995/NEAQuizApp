@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="tbc.dma.neaquizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_view_layout_height"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nea" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/gk"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/color_one_piece_manga" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/iq"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/color_one_piece_manga"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/layout_margin"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/description"
+            android:textColor="@color/color_text" />
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/adventure"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/color_text" />
+
+        <Button
+            android:id="@+id/StartQuiz"
+            android:layout_width="158dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="@dimen/button_layout_margin"
+            android:backgroundTint="@color/color_button"
+            android:text="@string/button_start" />
+
+    </LinearLayout>
+</ScrollView>

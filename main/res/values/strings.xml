@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="quiz_activity">Quiz Activity</string>
+    <string name="score_activity">Score Activity</string>
+    <!--    Main activity strings-->
+    <string name="gk">General Knowledge \n &amp; \n; </string>
+    <string name="iq">I.Q</string>
+    <string name="description">This app includes important questions based on Nepal Electricity
+        Authority (NEA) as a competitive Exam Handbook.\n Paper-1, Part-I</string>
+    <string name="adventure">Do you want to start quiz?</string>
+
+    <!--QuizActivity Strings-->
+    <!-- Question 1 -->
+    <string name="question_one">1. Which is the world\'s 2nd richest country in water resources?</string>
+    <string name="ans_one_one">Pakistan</string>
+    <string name="ans_one_two">India</string>
+    <string name="ans_one_three">Nepal</string>
+    <string name="ans_one_four">Sri Lanka</string>
+    <string name="correct_ans_one">Q1: Nepal</string>
+
+    <!-- Question 2 -->
+    <string name="question_two">2. When Nepal became constitutional monarchy?</string>
+    <string name="ans_two_one">18 Feb 1950</string>
+    <string name="ans_two_two">18 Feb 1951</string>
+    <string name="ans_two_three">18 Feb 1952</string>
+    <string name="ans_two_four">18 Feb 1953</string>
+    <string name="correct_ans_two">Q2: 18 Feb 1951</string>
+
+    <!-- Question 3 -->
+    <string name="question_three">3. When king Prithivi Narayan Shah unified Nepal?</string>
+    <string name="ans_three_one">1767</string>
+    <string name="ans_three_two">1768</string>
+    <string name="ans_three_three">1769</string>
+    <string name="ans_three_four">1770</string>
+    <string name="correct_ans_three">Q3: 1768</string>
+
+    <!-- Question 4 -->
+    <string name="question_four">4. What is the form of government in Nepal?</string>
+    <string name="ans_four_one">Absolute Monarchy</string>
+    <string name="ans_four_two">Constitutional Monarchy</string>
+    <string name="ans_four_three">Democracy</string>
+    <string name="ans_four_four">Presidential</string>
+    <string name="correct_ans_four">Q4: Democracy</string>
+
+    <!-- Question 5 -->
+    <string name="question_five">5. Who has written national anthem of Nepal?</string>
+    <string name="ans_five_one">Chekrapani Chalise</string>
+    <string name="ans_five_two">Mahedea Dhulan</string>
+    <string name="ans_five_three">Srinath Kosola</string>
+    <string name="ans_five_four">Dulan Zhaminda</string>
+    <string name="correct_ans_five">Q5: Srinath Kosola</string>
+
+    <!-- Question 6 -->
+    <string name="question_six">6. What percentage of population of Nepal professes Hinduism?</string>
+    <string name="ans_six_one">70%</string>
+    <string name="ans_six_two">80%</string>
+    <string name="ans_six_three">90%</string>
+    <string name="ans_six_four">95%</string>
+    <string name="correct_ans_six">Q6: 80%</string>
+
+    <!-- Question 7 -->
+    <string name="question_seven">7. Pick the currency of Nepal?</string>
+    <string name="ans_seven_one">Taka</string>
+    <string name="ans_seven_two">Rupee</string>
+    <string name="ans_seven_three">Rufiyaa</string>
+    <string name="ans_seven_four">Cent</string>
+    <string name="correct_ans_seven">Q7: Rupee</string>
+
+    <!-- Question 8 -->
+    <string name="question_eight">8. Where is the birthplace of Lord Budhha in Nepal?</string>
+    <string name="ans_eight_one">Pokhara</string>
+    <string name="ans_eight_two">Kathmandu</string>
+    <string name="ans_eight_three">Lumbini</string>
+    <string name="ans_eight_four">None of the above</string>
+    <string name="correct_ans_eight">Q8: Lumbini</string>
+
+    <!-- Question 9 -->
+    <string name="question_nine">9. When Nepal\'s new democratic constitution was promulgated?</string>
+    <string name="ans_nine_one">9 Nov 1989</string>
+    <string name="ans_nine_two">9 Nov 1990</string>
+    <string name="ans_nine_three">9 Nov 1991</string>
+    <string name="ans_nine_four">9 Nov 1992</string>
+    <string name="correct_ans_nine">Q9: 9 Nov 1990</string>
+
+    <!-- Question 10 -->
+    <string name="question_ten">10. When the first ever general election were held in Nepal?</string>
+    <string name="ans_ten_one">8 Feb 1958</string>
+    <string name="ans_ten_two">18 Feb 1959</string>
+    <string name="ans_ten_three">18 Feb 1960</string>
+    <string name="ans_ten_four">18 Feb 1961</string>
+    <string name="correct_ans_ten">Q10: 18 Feb 1959</string>
+
+
+    <string name="button_start">Start</string>
+
+    <string name="button_submit">Submit</string>
+    <string name="button_back">Goto Back</string>
+
+    <string name="image_description">NEA General Knowledge </string>
+</resources>

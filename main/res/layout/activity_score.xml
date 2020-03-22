@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tbc.dma.neaquizapp.ScoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/score_layout_margin_top"
+            android:text="Your Score is"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/color_question" />
+
+        <TextView
+            android:id="@+id/score_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/question_layout_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/linear_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/linear_layout_margin_left"
+                android:layout_marginTop="@dimen/question_layout_margin_top"
+                android:layout_marginRight="@dimen/linear_layout_margin_right"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="@dimen/question_layout_margin_top"
+                    style="@style/ScoreResultTextStyle"
+                    android:gravity="center"
+                    android:text="Your Answer" />
+
+                <TextView
+                    android:id="@+id/your_ans_one"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_two"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_three"
+                    style="@style/ScoreResultTextStyle" />
+
+                <TextView
+                    android:id="@+id/your_ans_four"
+                    style="@style/ScoreResultTextStyle" />
+
+                <TextView
+                    android:id="@+id/your_ans_five"
+                    style="@style/ScoreResultTextStyle" />
+
+                <TextView
+                    android:id="@+id/your_ans_six"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_seven"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_eight"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_nine"
+                    style="@style/ScoreResultTextStyle"/>
+
+                <TextView
+                    android:id="@+id/your_ans_ten"
+                    style="@style/ScoreResultTextStyle" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="@dimen/view_layout_margin_top"
+                android:background="@android:color/darker_gray">
+            </View>
+
+            <LinearLayout
+                android:layout_width="@dimen/linear_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/linear_layout_margin_left"
+                android:layout_marginTop="@dimen/question_layout_margin_top"
+                android:layout_marginRight="@dimen/linear_layout_margin_right"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ScoreResultTextStyle"
+                    android:layout_marginTop="@dimen/question_layout_margin_top"
+                    android:gravity="center"
+                    android:text="Correct Answer" />
+
+                <TextView
+                    android:id="@+id/correct_ans_one"
+                    android:text="@string/correct_ans_one"
+                    style="@style/ScoreResultTextStyle" />
+
+                <TextView
+                    android:id="@+id/correct_ans_two"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_two"/>
+
+                <TextView
+                    android:id="@+id/correct_ans_three"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_three" />
+
+                <TextView
+                    android:id="@+id/correct_ans_four"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_four"/>
+
+                <TextView
+                    android:id="@+id/correct_ans_five"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_five"/>
+
+                <TextView
+                    android:id="@+id/correct_ans_six"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_six" />
+
+                <TextView
+                    android:id="@+id/correct_ans_seven"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_seven" />
+
+                <TextView
+                    android:id="@+id/correct_ans_eight"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_eight" />
+
+                <TextView
+                    android:id="@+id/correct_ans_nine"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_nine"/>
+
+                <TextView
+                    android:id="@+id/correct_ans_ten"
+                    style="@style/ScoreResultTextStyle"
+                    android:text="@string/correct_ans_ten" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/share_result_button"
+                android:layout_width="151dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Share Result" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
