@@ -63,8 +63,13 @@ public class ScoreActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.share_result_button){
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            startActivity(i);
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            if (intent.resolveActivity(getPackageManager()) == null) {
+                startActivity(Intent.createChooser(intent, "No app found to share this content."));
+            }else{
+                startActivity(intent);
+            }
         }
     }
 }
